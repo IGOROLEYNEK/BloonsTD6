@@ -23,6 +23,10 @@
 		{
 			width: 25%;
 		}
+		tr
+		{
+			vertical-align: top;
+		}
 		a
 		{
 			text-decoration: none;
@@ -45,22 +49,42 @@
 			font-size: 24px;
 			font-weight: 400;
 		}
-		a.red:visited
+		a.red:visited;
 		{
 		    color: red;
 			font-size: 24px;
 			font-weight: 400;
 		}
-		h1, h2
+		h1, h2.menu
 		{
-			color: white;
+			color: #20ff00;
 			text-decoration: none;
 		}
-		body
+		h2.menu:hover
 		{
+			color: #d3ff00;
+		}
+		h2.n
+		{
+			color: #0010ff;
+		}
+		h2.l
+		{
+			color: #1cff09;
+	 	}
+		h2.v
+		{
+			color: #fff009;
+		}
+		h2.g
+		{
+			color: #9b09ff;
+		}
+		body
+	    {
 			background-color: black;
 		}
 		p
 		{
-			color: white;
+			color: violet;
 		}
