@@ -33,7 +33,7 @@
 		}
 		a.green
 	    {
-		    color: green;
+		    color:green;
 			font-size: 24px;
 			font-weight: 400;
 		}
@@ -84,7 +84,19 @@
 	    {
 			background-color: black;
 		}
-		p
+		p.n
+		{
+			color: #00c3ff;
+		}
+		p.l
+		{
+			color: #8bff2c;
+		}
+		p.v
+		{
+			color: #f9ff37;
+		}
+		p.g
 		{
 			color: violet;
 		}
