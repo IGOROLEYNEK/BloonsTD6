@@ -104,8 +104,8 @@
 		{
 			border: 3px solid green;
 			text-align: center;
-            margin-left: calc(43vw);
-            margin-right: calc(43vw);
+            margin-left: calc(23vw);
+            margin-right: calc(23vw);
 		}	
 		footer
 		{
@@ -123,4 +123,9 @@
 		label
 		{
 			color: white;
+		}
+		header
+	    {
+    		display: flex;
+    		justify-content: space-evenly;
 		}
