@@ -129,3 +129,85 @@
     		display: flex;
     		justify-content: space-evenly;
 		}
+		#grid
+		{
+			min-height: 500px;
+			display:grid;
+			grid-template-areas: 
+			'one one one three three'
+			'one one one four four'
+			'two two two four four'
+			'two two two five five';
+			grid-gap: 5px;
+		}
+		#g1 {grid-area: one;}
+		#g2 {grid-area: two;}
+		#g3 {grid-area: three;}
+		#g4 {grid-area: four;}
+		#g5 {grid-area: five;}
+		input:focus
+		{
+			background-color: black;
+		}
+		button
+	    {
+	    	position: absolute;
+	    	z-index: 3;
+	    	background-color: #4a9c91;
+	    	width: 340px;
+	    	height: 60px;
+	    	border-radius: 8px;
+	    	border: outset 3px;
+	    	left: 240px;
+	    	top: 480px;
+	    	font-size: 28px;
+	    	font-family: Cambria;
+	    }
+	    button:hover
+	    {
+	    	transform: translate( 850px);
+	    }
+	    #poster
+	    {
+	    	background-color: grey;
+	    	animation: poster 10s ease-in-out infinite;
+
+	    }
+	    #poster:hover;
+	    {
+
+	    }
+	    .cut1
+        {
+        	position: absolute;
+	    	z-index: 2;
+	    	top: 165px;
+	    	left: 685px;
+	    	transform: scale(1.2);
+	    }
+	    .cut2
+        {
+        	position: absolute;
+	    	z-index: 2;
+	    	top: 120px;
+	    	left: 175px;
+	    	transform: scale(1.2);
+	    }
+	    .cut1:hover
+	    {
+	    	transform: scale(2);
+	    }
+	    .cut2:hover
+        {
+        	transform: scale(2);
+        }
+        audio
+        {
+        	position: relative;
+        	left: 0;
+        	transition: left 0.2s;
+        }
+        audio:hover
+        {
+        	left: 15px;
+        }
